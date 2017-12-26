@@ -1,0 +1,370 @@
+/* base */
+@charset "utf-8";
+	body {
+	    font-family:Microsoft Yahei,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #666;
+    background: #fff;
+    min-width: 1200px;
+}
+body, div, dl, dt, dd, ul, ol, li, h1, h2, h3, h4, h5, h6, pre, code,
+form, fieldset, legend, input, textarea, p, blockquote, th, td, hr, button, article,
+aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	margin: 0;
+	padding: 0
+}
+header, article, aside, details, figcaption, figure, footer, hgroup, menu, nav, section {
+	display: block
+}
+textarea {
+	resize:none;
+}
+img {
+    border: 0;
+    height: auto;
+    vertical-align: middle;
+}
+input, select, textarea {
+	font-size: 100%;
+	outline: 0;
+	font-family: "Microsoft YaHei";
+}
+a {
+	outline: none
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0
+}
+th {
+	text-align: inherit;
+	table-layout:fixed;
+	word-break:break-all
+}
+td {
+	word-break:break-all
+}
+fieldset, img {
+	border: 0
+}
+iframe {
+	display: block
+}
+abbr, acronym {
+	border: 0;
+	font-variant: normal
+}
+del {
+	text-decoration: line-through
+}
+address, caption, cite, code, dfn, em, th, var {
+	font-style: normal;
+	font-weight: normal
+}
+caption {
+	display: none
+}
+ol, ul,li {
+	list-style: none
+}
+h1, h2, h3, h4, h5, h6 {
+	font-size: 100%;
+	font-weight: normal
+}
+h1 {
+	font-size: 18px
+}
+h2 {
+	font-size: 16px;
+}
+h3 {
+	font-size: 14px
+}
+h4, h5, h6 {
+	font-size: 1em
+}
+q:before, q:after {
+	content:''
+}
+sub, sup {
+	font-size: 12px;
+	line-height: 22px;
+	position: relative;
+	vertical-align: baseline
+}
+ins, a {
+	text-decoration: none
+}
+a {
+	color: #333;
+}
+a:hover {
+	text-decoration: none;
+}
+u, ins {
+	text-decoration: none
+}
+.mid{
+	margin:0 auto;
+}
+.fl{
+	float:left;
+}
+.fr{
+	float: right;
+}
+.clear{
+    clear: both;
+}
+
+.mr-title{
+    margin: 20px 0 30px 0;
+}
+.mb{
+    margin-bottom: 30px;
+}
+
+/* 开始正文 */
+.wch-layout{
+	width: 100%;
+	height: auto;
+	overflow: hidden;
+}
+.wch-layout-wrapper{
+	width: 1200px;
+	margin: 0 auto;
+}
+.header-top{
+	height: 70px;
+	line-height: 70px;
+
+}
+.header-login{
+	padding-top: 15px;
+}
+.header-logo a,.header-login a{
+	display: block;
+	
+}
+.header-login a{
+	width: 90px;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 4px;
+    -webkit-transition: all .15s ease;
+	transition: all .15s ease;
+	background-color: #ff6803;
+}
+.header-login a:hover{
+	background: #ff8e42;
+}
+.banner img{
+	width: 100%;
+}
+.button{
+	
+    display: block;
+    background-color: #ff6803;    
+    color: #fff;
+    font-weight: bold;    
+    text-align: center;    
+	border-radius: 5px;
+	-webkit-transition: all .15s ease;
+	transition: all .15s ease;
+}
+.get-red{
+	width: 300px;
+    height: 60px;
+    font-size: 25px;
+    margin: 50px auto 50px;
+    line-height: 60px;
+}
+.button:hover{
+	background: #ff8e42;
+}
+.title{
+	text-align: center;
+    font-size: 22px;
+    color: #333;
+    font-weight: normal;
+    position: relative;
+    height:50px;
+    line-height:50px;
+}
+.red-rule{
+	margin-bottom: 50px;
+}
+.title:after {
+    content: '';
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    margin-left: -15px;
+    width: 30px;
+    height: 2px;
+    background-color: #ff6803;
+}
+.red-wapper{
+	margin-top: 20px;
+	height:1150px;
+	background: linear-gradient(to bottom, #fff, #fadfbd);
+	text-align: center;
+}
+.red01,.red02{
+	height:300px;
+	margin-bottom: 30px;
+}
+.red-wapper li{
+	float: left;
+	height: 291px;
+	width:246px;	
+}
+/* .red-wapper li:hover {
+    -moz-box-shadow: 5px 0 24px #ccc;
+    -webkit-box-shadow: 5px 0 24px #ccc;
+    box-shadow: 5px 0 24px #ccc;
+    transition:box-shadow 0.4s;
+    cursor: pointer;
+} */
+.red-wapper .red01 li{
+	padding: 0 77px;
+	background: url("./images/redbox.png") 77px 0 no-repeat;
+}
+.red-wapper .red02 li{
+	padding: 0 27px;
+	background: url("./images/redbox.png") 27px 0 no-repeat;
+}
+.red-rule01 {
+    color: #c99e5a;
+    font-size: 18px;
+    height: 40px;
+    line-height: 40px;
+	padding-top: 10px;
+
+}
+.red-rule02{
+    color: #e73828;
+    font-size: 44px;
+    padding: 25px 0 0px 0;
+    height: 80px;
+    line-height: 80px;
+}
+.red-rule03{
+	color: #999;	
+}
+.red-rule04{
+	margin-top: 44px;
+}
+.red-rule04 a{
+	background: #fff7e1;
+    box-shadow: 0 4px 0 #f4dea7;
+    color: #ee4930;
+    display: inline-block;
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 28px;
+    text-align: center;
+    width: 184px;
+    padding: 5px 0;
+    border-radius: 10px;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+.red-wapper .red-rule-detail p{
+	text-align: left;
+	text-indent: 2em;
+	font-size: 16px;
+	height: 25px;
+	line-height: 25px;
+}
+.red-rule-detail span{
+    display: block;
+    margin-top: 20px;
+}
+.step-wapper{
+	background: #f5f5f5;
+}
+.lhd{
+	position: relative;
+}
+.lhd a{
+	width: 300px;
+    height: 350px;
+    display: block;
+	background: url(./images/lhd.png) no-repeat;
+	
+}
+.lhd a:hover {
+    -moz-box-shadow: 5px 0 24px rgb(145, 143, 143);
+    -webkit-box-shadow: 5px 0 24px rgb(145, 143, 143);
+    box-shadow: 5px 0 24px rgb(145, 143, 143);
+    transition:box-shadow 0.4s;
+    cursor: pointer;
+}
+.iconGroup .iconContext {
+    margin-top: 40px;
+    margin-bottom: 50px;
+}
+.iconContext{
+	height: auto;
+	overflow: hidden;
+}
+.iconContext .condi {
+    display: inline-block;
+    float: left;
+    width: 24.5%;
+    overflow: hidden;
+    text-align: center;
+}
+.iconContext .condi span {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: url(./images/spread_icon_03.png) no-repeat;
+}
+.iconContext .condi h2 {
+    color: #ff6803;
+    font-size: 24px;
+    font-weight: normal;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.iconContext .condi p {
+    color: #666;
+    font-size: 16px;
+    line-height: 25px;
+}
+.iconContext .condi.condi2 span {
+    background-position: 0px -125px;
+}
+.iconContext .condi.condi3 span {
+    background-position: 0px -251px;
+}
+.iconContext .condi.condi4 span {
+    background-position: 0px -379px;
+}
+.iconContext .condi11 span {
+    display: inline-block;
+    width: 80px;
+    height: 80px;
+    background: url(./images/spread_icon_04.png) no-repeat;
+}
+.iconContext .condi.condi22 span {
+    background: url(./images/spread_icon_04.png) no-repeat;
+    background-position: 0px -125px;
+    
+}
+.iconContext .condi.condi33 span {
+    background: url(./images/spread_icon_04.png) no-repeat;
+    background-position: 0px -251px;
+    
+}
+.iconContext .condi.condi44 span {
+    background: url(./images/spread_icon_04.png) no-repeat;
+    background-position: 0px -379px;
+    
+}
